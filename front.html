@@ -9,20 +9,43 @@
         body{
              
              background-image: url(https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-             background-position-y: 10vh;
-             background-size:99.9%;
+             width: 99vw;
+             height: 45.1vw;
+             background-position:top;
+             background-size:100vw;
              background-attachment: scroll;
              background-repeat:no-repeat ;
+        }
+        #button{
+            float: right;
+            font-size: 1.3vw;
+
+        }
+        #car{
+            float: right;
+        }
+        #text{
+            text-align: center;
+            font-size: 5vw;
+            color:blue;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
     </style>
 </head>
 <body>
-     <h3 style="text-align: right; font-size: 3vh;"><a href="http://" target="_blank" rel="noopener noreferrer"></a><span style="border: 2px solid black;">Login/Sign up</span></h3>
-    <h1 style="color: red;font-family:'Courier New', Courier, monospace; font-style: inherit; font-size: 500%;; text-align: center; margin-top: -11vh;;"><strong><span style="background-color: Purple;">THE GAADI MARKET</span></strong></h1>
+    
+        <button id="button">Login/SignUp</button>
+        <h1 id="text">THE GAADI MARKET</h1>
+    
+
+     
     <br>
     <br>
     <br>
-    <a href="http://127.0.0.1:5501/cars.html"><button style="zoom: 500%;margin-top:20%; margin-left: 10%;">CARS</button></a>
-    <a href="http://127.0.0.1:5501/Bike.html"><button style="zoom: 500%; margin-top:20%; margin-left: 50%;">BIKES</button></a>
+
+            <a href="http://127.0.0.1:5501/cars.html"><button style="font-size: 5vw;float: left; text-align: center; padding-left: 1vw;padding-right: 1vw;">CARS</button></a>
+            
+            <a href="http://127.0.0.1:5501/Bike.html"><button style="font-size:5vw;float:right; padding-left: 1vw; padding-right: 1vw;">BIKES</button></a>
+    
 </body>
 </html>
